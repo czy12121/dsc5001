@@ -1,0 +1,37 @@
+﻿species_age_band,recorded_outcome,false_positives
+Cat 1–<7 yr,Adoption,6
+Cat 1–<7 yr,No linked exit by July 31,5
+Cat 1–<7 yr,Transfer,14
+Cat 3–<6 mo,Adoption,6
+Cat 3–<6 mo,No linked exit by July 31,4
+Cat 3–<6 mo,Transfer,1
+Cat 6–<12 mo,No linked exit by July 31,2
+Cat 6–<12 mo,Transfer,5
+Cat 7+ yr,No linked exit by July 31,1
+Cat 7+ yr,Transfer,1
+Cat <3 mo,Adoption,134
+Cat <3 mo,Died,6
+Cat <3 mo,Disposal,1
+Cat <3 mo,Euthanasia,3
+Cat <3 mo,Missing,1
+Cat <3 mo,No linked exit by July 31,56
+Cat <3 mo,Transfer,22
+Dog 1–<7 yr,Adoption,12
+Dog 1–<7 yr,No linked exit by July 31,23
+Dog 1–<7 yr,Return to Owner,2
+Dog 1–<7 yr,Rto-Adopt,1
+Dog 1–<7 yr,Transfer,10
+Dog 3–<6 mo,Adoption,4
+Dog 3–<6 mo,No linked exit by July 31,5
+Dog 3–<6 mo,Return to Owner,1
+Dog 3–<6 mo,Transfer,1
+Dog 6–<12 mo,Adoption,5
+Dog 6–<12 mo,No linked exit by July 31,9
+Dog 6–<12 mo,Transfer,2
+Dog 7+ yr,No linked exit by July 31,4
+Dog 7+ yr,Return to Owner,2
+Dog <3 mo,Adoption,7
+Dog <3 mo,Euthanasia,1
+Dog <3 mo,No linked exit by July 31,4
+Dog <3 mo,Return to Owner,1
+Dog <3 mo,Transfer,10

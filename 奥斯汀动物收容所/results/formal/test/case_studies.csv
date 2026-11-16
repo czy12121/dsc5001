@@ -1,0 +1,4 @@
+﻿episode_id,intake_day,animal_type,sex_upon_intake,intake_type,intake_condition,age_upon_intake,outcome_type,days_to_outcome,adopted_30d,adopted_60d,case,profile_records,logit_ab,bagging_cont,mlp_cont,forest_cont,bayes_bands
+A912580_20240903T124200,2024-09-03,Cat,Intact Male,Stray,Normal,1 month,Adoption,20.0,1,1,same_features,116,0.3175394292576915,0.41744858576841826,0.3610874111334474,0.4389486529800716,0.3523270596033745
+A912583_20240903T124200,2024-09-03,Cat,Intact Male,Stray,Normal,1 month,Adoption,35.0,0,1,same_features,116,0.3175394292576915,0.41744858576841826,0.3610874111334474,0.4389486529800716,0.3523270596033745
+A915920_20241021T203400,2024-10-21,Cat,Intact Female,Stray,Medical,2 months,Return to Owner,3.0,0,0,mlp_only,,0.2713447617211074,0.26588361482053313,0.8038234102379395,0.30811551661601255,0.23613404514623168

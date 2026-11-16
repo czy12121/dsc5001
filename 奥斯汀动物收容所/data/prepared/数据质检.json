@@ -1,0 +1,14 @@
+{
+  "source_csv_rows_in_cohort": 33100,
+  "cohort_unique_intake_events": 33089,
+  "removed_duplicate_intake_rows": 9,
+  "conflicting_intake_events": 2,
+  "cohort_rows_with_no_candidate_outcome": 171,
+  "cohort_rows_with_one_unambiguous_outcome": 32912,
+  "cohort_rows_with_multiple_candidates": 9,
+  "cohort_rows_whose_outcome_can_belong_to_more_than_one_intake": 8,
+  "cohort_matched_outcomes_with_date_precision": 761,
+  "cohort_unknown_ages": 340,
+  "coverage_last_outcome_date": "2025-05-05",
+  "followup_gap_rows": 3125
+}

@@ -1,0 +1,6 @@
+{
+  "intake_url": "https://data.austintexas.gov/resource/wter-evkm.json?%24limit=20000&%24order=datetime%2C%20animal_id&%24select=animal_id%2C%20datetime%2C%20animal_type%2C%20age_upon_intake%2C%20sex_upon_intake%2C%20intake_type%2C%20intake_condition&%24where=datetime%20%3E%3D%20%272024-01-01T00%3A00%3A00%27%20AND%20datetime%20%3C%20%272024-08-01T00%3A00%3A00%27%20AND%20animal_type%20in%20%28%27Cat%27%2C%20%27Dog%27%29",
+  "outcome_url": "https://data.austintexas.gov/resource/9t4d-g238.json?%24limit=20000&%24order=datetime%2C%20animal_id&%24select=animal_id%2C%20datetime%2C%20animal_type%2C%20outcome_type&%24where=datetime%20%3E%3D%20%272024-01-01T00%3A00%3A00-06%3A00%27%20AND%20datetime%20%3C%20%272024-08-01T00%3A00%3A00-05%3A00%27%20AND%20animal_type%20in%20%28%27Cat%27%2C%20%27Dog%27%29",
+  "snapshot_at_utc": "2026-11-11T05:29:57.7590545+00:00",
+  "description": "Official Austin Animal Center historical records. Cats and dogs, January through July 2024 in local time."
+}

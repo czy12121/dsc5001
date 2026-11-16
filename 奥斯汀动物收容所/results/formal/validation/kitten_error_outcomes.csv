@@ -1,0 +1,40 @@
+﻿run,error,category,n
+logit_ab,false_negative_intake_type,Stray,267
+logit_ab,false_negative_intake_type,Owner Surrender,33
+logit_ab,false_negative_intake_type,Abandoned,7
+logit_ab,false_negative_intake_type,Public Assist,2
+bagging_cont,false_positive_outcome,Adoption on days 31–60,8
+bagging_cont,false_positive_outcome,Adoption after day 60,6
+bagging_cont,false_positive_outcome,Euthanasia,2
+bagging_cont,false_positive_outcome,Transfer,1
+bagging_cont,false_negative_intake_type,Stray,193
+bagging_cont,false_negative_intake_type,Owner Surrender,33
+bagging_cont,false_negative_intake_type,Abandoned,4
+bagging_cont,false_negative_intake_type,Public Assist,1
+mlp_cont,false_positive_outcome,Adoption on days 31–60,28
+mlp_cont,false_positive_outcome,Adoption after day 60,14
+mlp_cont,false_positive_outcome,Euthanasia,2
+mlp_cont,false_positive_outcome,Transfer,1
+mlp_cont,false_positive_outcome,Died,1
+mlp_cont,false_negative_intake_type,Stray,192
+mlp_cont,false_negative_intake_type,Owner Surrender,14
+mlp_cont,false_negative_intake_type,Abandoned,4
+mlp_cont,false_negative_intake_type,Public Assist,2
+forest_cont,false_positive_outcome,Adoption on days 31–60,13
+forest_cont,false_positive_outcome,Died,1
+forest_cont,false_positive_outcome,Adoption after day 60,1
+forest_cont,false_positive_outcome,Missing,1
+forest_cont,false_negative_intake_type,Stray,267
+forest_cont,false_negative_intake_type,Abandoned,7
+forest_cont,false_negative_intake_type,Owner Surrender,3
+forest_cont,false_negative_intake_type,Public Assist,2
+bayes_bands,false_positive_outcome,Adoption on days 31–60,25
+bayes_bands,false_positive_outcome,Adoption after day 60,24
+bayes_bands,false_positive_outcome,Transfer,5
+bayes_bands,false_positive_outcome,Died,2
+bayes_bands,false_positive_outcome,Euthanasia,1
+bayes_bands,false_positive_outcome,Missing,1
+bayes_bands,false_negative_intake_type,Stray,267
+bayes_bands,false_negative_intake_type,Abandoned,7
+bayes_bands,false_negative_intake_type,Public Assist,2
+bayes_bands,false_negative_intake_type,Owner Surrender,1

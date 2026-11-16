@@ -1,0 +1,934 @@
+{
+  "inputs": {
+    "data_sha256": "9325198cd5b5237aadcd9b2ccf5a3bb4ec62b0f0f4ce5780cc7bff93b0c86494",
+    "experiment_sha256": "2f75e8d9bcde4a0ed719efc1f936f3d36c7f47a792bb49b4e9f2780f6929c232",
+    "pilot_sha256": "16058499b653acc7254708a6c5a16fa715f029ae166e2de36439af2d0579cc1d",
+    "versions": {
+      "scikit_learn": "1.9.1",
+      "pandas": "3.0.2",
+      "numpy": "2.4.4"
+    }
+  },
+  "model_sha256": "4b2b94459fb5fca65bbc2150eb38d754e93092b0b9016894f3a1c398274db809",
+  "validation_recall_target": 0.7,
+  "reference_threshold": 0.5,
+  "bootstrap_draws": 1000,
+  "bootstrap_seed": 42,
+  "ap_comparisons": [
+    [
+      "bagging_bands",
+      "logit_bands"
+    ],
+    [
+      "mlp_bands",
+      "bagging_bands"
+    ],
+    [
+      "bayes_bands",
+      "logit_bands"
+    ],
+    [
+      "bagging_cont",
+      "logit_ab"
+    ],
+    [
+      "mlp_cont",
+      "bagging_cont"
+    ],
+    [
+      "logit_cont",
+      "logit_bands"
+    ],
+    [
+      "bagging_cont",
+      "bagging_bands"
+    ],
+    [
+      "mlp_cont",
+      "mlp_bands"
+    ],
+    [
+      "logit_a",
+      "logit_base"
+    ],
+    [
+      "logit_ab",
+      "logit_cont"
+    ],
+    [
+      "logit_cont",
+      "logit_base"
+    ],
+    [
+      "logit_ab",
+      "logit_a"
+    ],
+    [
+      "logit_ab",
+      "logit_b_with_bands"
+    ],
+    [
+      "bagging_ab",
+      "bagging_cont"
+    ],
+    [
+      "bagging_cont",
+      "tree_cont"
+    ],
+    [
+      "forest_cont",
+      "bagging_cont"
+    ]
+  ],
+  "thresholds": {
+    "primary/30/historical": null,
+    "primary/30/logit_bands": 0.3240526492349787,
+    "primary/30/bagging_bands": 0.32775314253493615,
+    "primary/30/mlp_bands": 0.29951863109154553,
+    "primary/30/bayes_bands": 0.34219198092325176,
+    "primary/30/logit_cont": 0.37891697442643685,
+    "primary/30/bagging_cont": 0.37945249193598896,
+    "primary/30/mlp_cont": 0.3610874111334474,
+    "primary/30/logit_base": 0.35514827116636594,
+    "primary/30/logit_a": 0.2927385174153588,
+    "primary/30/logit_b_with_bands": 0.3425936228569998,
+    "primary/30/logit_ab": 0.31881612307312807,
+    "primary/30/bagging_ab": 0.3269577055470856,
+    "primary/30/tree_cont": 0.39596136962247586,
+    "primary/30/forest_cont": 0.3946005673328289,
+    "primary/30/mlp_bands_seed77": 0.29892835526773187,
+    "primary/30/mlp_bands_seed123": 0.29899697789884466,
+    "primary/30/mlp_cont_seed77": 0.3543828242440229,
+    "primary/30/mlp_cont_seed123": 0.3585287897538517,
+    "common_windows/30/historical": null,
+    "common_windows/30/logit_ab": 0.31813345483833166,
+    "common_windows/30/bagging_cont": 0.37789451816459163,
+    "common_windows/60/historical": null,
+    "common_windows/60/logit_ab": 0.4502119297634448,
+    "common_windows/60/bagging_cont": 0.4194462301863797
+  },
+  "settings": {
+    "primary/30/historical": {
+      "method": "historical",
+      "features": [],
+      "seed": null,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 0.0,
+      "train_prior": 0.35640950425344675
+    },
+    "primary/30/logit_bands": {
+      "method": "logit",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "intake_type",
+        "intake_condition",
+        "age_band"
+      ],
+      "seed": null,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 0.07,
+      "parameters": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 1000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": null,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "primary/30/bagging_bands": {
+      "method": "bagging",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "intake_type",
+        "intake_condition",
+        "age_band"
+      ],
+      "seed": 42,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 1.34,
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": 5,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 25,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 350,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "primary/30/mlp_bands": {
+      "method": "mlp",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "intake_type",
+        "intake_condition",
+        "age_band"
+      ],
+      "seed": 42,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 6.4,
+      "optimizer_attempts": [
+        {
+          "limit": 3000,
+          "iterations": 1061,
+          "warnings": []
+        }
+      ],
+      "parameters": {
+        "activation": "tanh",
+        "alpha": 0.5,
+        "batch_size": "auto",
+        "beta_1": 0.9,
+        "beta_2": 0.999,
+        "early_stopping": false,
+        "epsilon": 1e-08,
+        "hidden_layer_sizes": [
+          16
+        ],
+        "learning_rate": "constant",
+        "learning_rate_init": 0.001,
+        "max_fun": 30000,
+        "max_iter": 3000,
+        "momentum": 0.9,
+        "n_iter_no_change": 10,
+        "nesterovs_momentum": true,
+        "power_t": 0.5,
+        "random_state": 42,
+        "shuffle": true,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": false,
+        "warm_start": false
+      }
+    },
+    "primary/30/bayes_bands": {
+      "method": "bayes",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "intake_type",
+        "intake_condition",
+        "age_band"
+      ],
+      "seed": null,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 0.02,
+      "parameters": {
+        "alpha": 1.0,
+        "class_prior": null,
+        "fit_prior": true,
+        "force_alpha": true,
+        "min_categories": null
+      }
+    },
+    "primary/30/logit_cont": {
+      "method": "logit",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age",
+        "intake_type",
+        "intake_condition"
+      ],
+      "seed": null,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 0.06,
+      "parameters": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 1000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": null,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "primary/30/bagging_cont": {
+      "method": "bagging",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age",
+        "intake_type",
+        "intake_condition"
+      ],
+      "seed": 42,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 1.49,
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": 5,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 25,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 350,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "primary/30/mlp_cont": {
+      "method": "mlp",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age",
+        "intake_type",
+        "intake_condition"
+      ],
+      "seed": 42,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 6.47,
+      "optimizer_attempts": [
+        {
+          "limit": 3000,
+          "iterations": 1132,
+          "warnings": []
+        }
+      ],
+      "parameters": {
+        "activation": "tanh",
+        "alpha": 0.5,
+        "batch_size": "auto",
+        "beta_1": 0.9,
+        "beta_2": 0.999,
+        "early_stopping": false,
+        "epsilon": 1e-08,
+        "hidden_layer_sizes": [
+          16
+        ],
+        "learning_rate": "constant",
+        "learning_rate_init": 0.001,
+        "max_fun": 30000,
+        "max_iter": 3000,
+        "momentum": 0.9,
+        "n_iter_no_change": 10,
+        "nesterovs_momentum": true,
+        "power_t": 0.5,
+        "random_state": 42,
+        "shuffle": true,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": false,
+        "warm_start": false
+      }
+    },
+    "primary/30/logit_base": {
+      "method": "logit",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age"
+      ],
+      "seed": null,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 0.03,
+      "parameters": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 1000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": null,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "primary/30/logit_a": {
+      "method": "logit",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age",
+        "age_band",
+        "species_age_band"
+      ],
+      "seed": null,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 0.04,
+      "parameters": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 1000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": null,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "primary/30/logit_b_with_bands": {
+      "method": "logit",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age",
+        "intake_type",
+        "intake_condition",
+        "age_band"
+      ],
+      "seed": null,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 0.06,
+      "parameters": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 1000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": null,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "primary/30/logit_ab": {
+      "method": "logit",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age",
+        "intake_type",
+        "intake_condition",
+        "age_band",
+        "species_age_band"
+      ],
+      "seed": null,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 0.08,
+      "parameters": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 1000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": null,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "primary/30/bagging_ab": {
+      "method": "bagging",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age",
+        "intake_type",
+        "intake_condition",
+        "age_band",
+        "species_age_band"
+      ],
+      "seed": 42,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 2.04,
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": 5,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 25,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 350,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "primary/30/tree_cont": {
+      "method": "tree",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age",
+        "intake_type",
+        "intake_condition"
+      ],
+      "seed": 42,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 0.03,
+      "parameters": {
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": 5,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 25,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "random_state": 42,
+        "splitter": "best"
+      }
+    },
+    "primary/30/forest_cont": {
+      "method": "forest",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age",
+        "intake_type",
+        "intake_condition"
+      ],
+      "seed": 42,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 0.63,
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": 5,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 25,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 350,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "primary/30/mlp_bands_seed77": {
+      "method": "mlp",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "intake_type",
+        "intake_condition",
+        "age_band"
+      ],
+      "seed": 77,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 6.82,
+      "optimizer_attempts": [
+        {
+          "limit": 3000,
+          "iterations": 1136,
+          "warnings": []
+        }
+      ],
+      "parameters": {
+        "activation": "tanh",
+        "alpha": 0.5,
+        "batch_size": "auto",
+        "beta_1": 0.9,
+        "beta_2": 0.999,
+        "early_stopping": false,
+        "epsilon": 1e-08,
+        "hidden_layer_sizes": [
+          16
+        ],
+        "learning_rate": "constant",
+        "learning_rate_init": 0.001,
+        "max_fun": 30000,
+        "max_iter": 3000,
+        "momentum": 0.9,
+        "n_iter_no_change": 10,
+        "nesterovs_momentum": true,
+        "power_t": 0.5,
+        "random_state": 77,
+        "shuffle": true,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": false,
+        "warm_start": false
+      }
+    },
+    "primary/30/mlp_bands_seed123": {
+      "method": "mlp",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "intake_type",
+        "intake_condition",
+        "age_band"
+      ],
+      "seed": 123,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 6.65,
+      "optimizer_attempts": [
+        {
+          "limit": 3000,
+          "iterations": 1126,
+          "warnings": []
+        }
+      ],
+      "parameters": {
+        "activation": "tanh",
+        "alpha": 0.5,
+        "batch_size": "auto",
+        "beta_1": 0.9,
+        "beta_2": 0.999,
+        "early_stopping": false,
+        "epsilon": 1e-08,
+        "hidden_layer_sizes": [
+          16
+        ],
+        "learning_rate": "constant",
+        "learning_rate_init": 0.001,
+        "max_fun": 30000,
+        "max_iter": 3000,
+        "momentum": 0.9,
+        "n_iter_no_change": 10,
+        "nesterovs_momentum": true,
+        "power_t": 0.5,
+        "random_state": 123,
+        "shuffle": true,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": false,
+        "warm_start": false
+      }
+    },
+    "primary/30/mlp_cont_seed77": {
+      "method": "mlp",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age",
+        "intake_type",
+        "intake_condition"
+      ],
+      "seed": 77,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 8.45,
+      "optimizer_attempts": [
+        {
+          "limit": 3000,
+          "iterations": 1478,
+          "warnings": []
+        }
+      ],
+      "parameters": {
+        "activation": "tanh",
+        "alpha": 0.5,
+        "batch_size": "auto",
+        "beta_1": 0.9,
+        "beta_2": 0.999,
+        "early_stopping": false,
+        "epsilon": 1e-08,
+        "hidden_layer_sizes": [
+          16
+        ],
+        "learning_rate": "constant",
+        "learning_rate_init": 0.001,
+        "max_fun": 30000,
+        "max_iter": 3000,
+        "momentum": 0.9,
+        "n_iter_no_change": 10,
+        "nesterovs_momentum": true,
+        "power_t": 0.5,
+        "random_state": 77,
+        "shuffle": true,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": false,
+        "warm_start": false
+      }
+    },
+    "primary/30/mlp_cont_seed123": {
+      "method": "mlp",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age",
+        "intake_type",
+        "intake_condition"
+      ],
+      "seed": 123,
+      "training_rows": 20454,
+      "training_positive_rows": 7290,
+      "fit_seconds": 5.74,
+      "optimizer_attempts": [
+        {
+          "limit": 3000,
+          "iterations": 1000,
+          "warnings": []
+        }
+      ],
+      "parameters": {
+        "activation": "tanh",
+        "alpha": 0.5,
+        "batch_size": "auto",
+        "beta_1": 0.9,
+        "beta_2": 0.999,
+        "early_stopping": false,
+        "epsilon": 1e-08,
+        "hidden_layer_sizes": [
+          16
+        ],
+        "learning_rate": "constant",
+        "learning_rate_init": 0.001,
+        "max_fun": 30000,
+        "max_iter": 3000,
+        "momentum": 0.9,
+        "n_iter_no_change": 10,
+        "nesterovs_momentum": true,
+        "power_t": 0.5,
+        "random_state": 123,
+        "shuffle": true,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "validation_fraction": 0.1,
+        "verbose": false,
+        "warm_start": false
+      }
+    },
+    "common_windows/30/historical": {
+      "method": "historical",
+      "features": [],
+      "seed": null,
+      "training_rows": 20452,
+      "training_positive_rows": 7290,
+      "fit_seconds": 0.0,
+      "train_prior": 0.35644435752004694
+    },
+    "common_windows/30/logit_ab": {
+      "method": "logit",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age",
+        "intake_type",
+        "intake_condition",
+        "age_band",
+        "species_age_band"
+      ],
+      "seed": null,
+      "training_rows": 20452,
+      "training_positive_rows": 7290,
+      "fit_seconds": 0.07,
+      "parameters": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 1000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": null,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "common_windows/30/bagging_cont": {
+      "method": "bagging",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age",
+        "intake_type",
+        "intake_condition"
+      ],
+      "seed": 42,
+      "training_rows": 20452,
+      "training_positive_rows": 7290,
+      "fit_seconds": 1.54,
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": 5,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 25,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 350,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "common_windows/60/historical": {
+      "method": "historical",
+      "features": [],
+      "seed": null,
+      "training_rows": 20452,
+      "training_positive_rows": 10013,
+      "fit_seconds": 0.0,
+      "train_prior": 0.48958537062389984
+    },
+    "common_windows/60/logit_ab": {
+      "method": "logit",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age",
+        "intake_type",
+        "intake_condition",
+        "age_band",
+        "species_age_band"
+      ],
+      "seed": null,
+      "training_rows": 20452,
+      "training_positive_rows": 10013,
+      "fit_seconds": 0.07,
+      "parameters": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 1000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": null,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "common_windows/60/bagging_cont": {
+      "method": "bagging",
+      "features": [
+        "animal_type",
+        "sex_upon_intake",
+        "log_age",
+        "intake_type",
+        "intake_condition"
+      ],
+      "seed": 42,
+      "training_rows": 20452,
+      "training_positive_rows": 10013,
+      "fit_seconds": 1.4,
+      "parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": 5,
+        "max_features": null,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 25,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 350,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      }
+    }
+  }
+}

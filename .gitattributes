@@ -1,0 +1,4 @@
+# Preserve the exact input bytes checked against the saved experiment protocol.
+/奥斯汀动物收容所/5001_正式实验.py -text
+/奥斯汀动物收容所/5001_首次实验.py -text
+/奥斯汀动物收容所/data/prepared/猫狗入所配对表_2022–2024.csv -text

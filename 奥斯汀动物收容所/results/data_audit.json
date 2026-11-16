@@ -1,0 +1,23 @@
+{
+  "intake_rows": 6918,
+  "outcome_rows": 6679,
+  "date_only_outcomes": 231,
+  "train": {
+    "raw_rows": 2431,
+    "label_unknown": 0,
+    "kept_rows": 2431,
+    "positive_rows": 1059,
+    "rows_linked_to_exit_by_jul31": 2353,
+    "rows_with_unknown_age": 26
+  },
+  "validation": {
+    "raw_rows": 2448,
+    "label_unknown": 2,
+    "kept_rows": 2411,
+    "positive_rows": 756,
+    "rows_linked_to_exit_by_jul31": 2060,
+    "rows_with_unknown_age": 15
+  },
+  "validation_rows_seen_in_train": 35,
+  "validation_unique_animals_seen_in_train": 33
+}

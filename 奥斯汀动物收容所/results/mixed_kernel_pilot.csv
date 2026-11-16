@@ -1,0 +1,6 @@
+run,features,training_n,validation_n,validation_positives,age_bandwidth,category_mismatch_weight,ap,brier
+age_bands,animal_type sex_upon_intake intake_type intake_condition age_band,20454,5878,2108,,0.35,0.6076471950824504,0.2140960666307925
+base,animal_type sex_upon_intake log_age,20454,5878,2108,0.35,0.35,0.6173061718612173,0.19277897849841027
+base_a,animal_type sex_upon_intake log_age age_band species_age_band,20454,5878,2108,0.35,0.35,0.6228539313568073,0.18961743131152428
+base_b,animal_type sex_upon_intake log_age intake_type intake_condition,20454,5878,2108,0.35,0.35,0.6586540193236203,0.18535657766801233
+base_ab,animal_type sex_upon_intake log_age intake_type intake_condition age_band species_age_band,20454,5878,2108,0.35,0.35,0.6611021225447319,0.18234281955227105

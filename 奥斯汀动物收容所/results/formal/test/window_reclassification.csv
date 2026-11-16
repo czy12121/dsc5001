@@ -1,0 +1,5 @@
+﻿run,group,n,positive_30d,positive_60d,false_positive_30d,original_false_positives_adopted_d31_to_60,false_positive_60d_after_refit
+logit_ab,All,3352,1327,1847,233,61,456
+logit_ab,Cat <3 mo,941,301,548,2,0,169
+bagging_cont,All,3352,1327,1847,226,84,267
+bagging_cont,Cat <3 mo,941,301,548,38,24,92

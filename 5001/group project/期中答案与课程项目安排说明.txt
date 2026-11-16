@@ -1,0 +1,92 @@
+期中答案与课程项目安排说明
+2026-10-12 | 16:10
+
+授课教师  00:00
+ To be here so much time you you must be really tired. So I'm gonna just like quickly, you know, mention what we have for the project. We shouldn't take a lot of points. I got that percentage, but. Let me see是一个百分比 50？
+在这里待了这么久，你们一定很累了。所以我只想简单快速地说一下我们项目的进展。我们不需要讲太多要点。我拿到了那个百分比，但让我看看，是50%吗？
+
+授课教师  00:40
+ Yeah, the project gonna take 20 points just like the midterm you just had.
+是的，这个项目将占总分的20分，就像你刚刚参加的中期考试一样。
+
+授课教师  00:46
+ So how's the exam? It's hard or it's it's. It's very easy to work on all right. I mean like because I I try to actually make it. You know, I also like you know, confirm with a Ta like we. We both think while this this should be fine for you, but if that is hard, like two things the first time, the first thing is I will try to make the final exam to be at least not harder than this all right and second, I will allow you.
+考试考得怎么样？难不难？其实这次考试相当简单。我是说，因为我确实努力把它出得简单些。你知道，我也和助教确认过，我们俩都觉得这对你们来说应该没问题。但如果真的觉得难的话，有两点：第一，我会尽量让期末考试至少不比这次难；第二，我会给你们放宽一些。
+
+授课教师  01:24
+ Still, I will allow you to use cheat sheet or final exam as well, all right. So for final exam, maybe you can use like two pages of the cheat sheet if one page is like harmful for your eyes. So yeah, so basically you use three columns on each page, you can print four, you can print it or you can handwrite it like both is fine, like a lot of students ask if they can print it for sure.
+不过，我还是允许你们在期末考试中使用小抄，没问题吧。所以对于期末考试，如果一页小抄对你们的眼睛来说太吃力，那你们可以用两页。基本上，每页可以分成三栏，你们可以打印出来，也可以手写，两种方式都可以。很多学生问能不能打印，当然可以。
+
+授课教师  01:52
+ Yes, you can print it if you want to all right? So yeah, I will also post it on you know announcement as well. Maybe I can do it like in a minute to just make sure like you know you can also do it in in F, everyone knows it. Yeah, and for for for me time, I believe it's not that hard, right?
+好的，如果你想打印的话，可以打印出来，好吗？是的，我也会在公告里发布一下。也许我可以马上搞定，确保大家都知道，你也可以在F里看到。对我来说，我觉得这并不难，对吧？
+
+授课教师  02:18
+ It's like it's just like a lot of details that you have to understand it. But but like for computation like calculation is not a lot of calculation, right? You think it's too much calculation. No. Ok, so yeah, like I I won't increase. Also, I won't increase the calculation amount in final exam as well. So yeah, because I I need to like, make sure you know, I know your preference in final exam, otherwise I don't want you to be desperate after each of the exam or homework. I will also try to make you know I will try to make everyone happy because it's useless for me to make make your life harder speak about the project.
+这就像是有很多细节需要你去理解。但说到计算，其实计算量并不大，对吧？你觉得计算量太大了吗？不。好的，所以，我不会增加计算量，期末考试我也不会增加计算量。因为我想确保自己了解你们在期末考试中的偏好，否则我不希望你们每次考试或作业后都感到绝望。我也会尽量让大家满意，因为让你们的日子更难过对我没有任何好处。接下来谈谈项目的事。
+
+授课教师  03:12
+ So as we said, it took like 20% of the mark, like it was like half of this gonna be your presentation and half of this gonna be your written report. So for presentation, it's going to be held on the last lecture, which is week 13 or 14. I forgot. But basically you can see it here like what the last week will be. The group project presentation actually, actually, I confuse, you know, like the week a little bit because I said we set six as a national holidays, so it actually should be week 13, I believe.
+就像我们之前说的，这部分占总成绩的20%，其中一半是你们的演示，另一半是书面报告。关于演示部分，将在最后一次课上举行，也就是第13或14周，具体我记不太清了。不过基本上你们可以在这里看到最后一周的安排。实际上，小组项目演示的具体周次我有点混淆了，因为之前提到第六周是法定假日，所以我想应该是第13周。
+
+授课教师  03:59
+ Yeah, but besides it with me a second, I have a female have to process.
+等等，听我说一句，我有个流程需要处理。
+
+授课教师  04:17
+ All right. So yeah, there are like for like for the last week, which should be the 13 week and you can just count it, like this week is here. So. Basically, seven weeks from now is a time for you to do the group project presentation.
+好的。那么，关于最后一周，也就是第十三周，你们可以自己数一下，这周就是在这里。基本上，从现在起七周后，就是你们进行小组项目展示的时候了。
+
+授课教师  04:42
+ As we said before, I think I said, like even the form groups from three people to six people, right? So that's that's a group size. And this part, like this mark, is going to be the easiest point that you can get from this course because I don't.
+正如我们之前所说，我认为我提到过，即使是小组形式，从三人到六人不等，对吧？这就是小组的规模。而这一部分，也就是这个分数，将是你在本课程中最容易获得的分数，因为我不认为……
+
+授课教师  05:01
+ I don't actually ask you to create everything, anything new you can. If you don't want to do it, just make sure you, you know, understand some of the algorithms in our course and just apply them to some real data set, right? Even though you you just apply linear regression or ridge regression lasso regression, you know some of the regression models to a real data set, and then you analyze the you know like the failure cases.
+我并不要求你从零开始创造所有东西。如果你不想这么做，只要确保你掌握了我们课程中的一些算法，并把它们应用到真实数据集上就行，对吧？哪怕你只是用线性回归、岭回归或套索回归这些回归模型去处理一个真实数据集，然后分析其中的失败案例，也是可以的。
+
+授课教师  05:34
+ It's it's okay, all right. I won't be really harsh on it. So basically I would say everyone to get more than 15 or even 17 points for project. But it doesn't mean like you should, you know you don't need to like work on it. You still need to work hard on it if you you know you should have that time to do it. Besides it for assignment, I think the first assignment, everyone did a good job and for the second, it will actually be almost the same as the first. But I'm actually thinking of I'm prefering for a coding assignment or like another assignment like exercises, just as the first assignment, your choice, a coding assignment or a written assignment, written assignment or coding assignment, or both.
+好的，没关系。我不会对它要求太苛刻。基本上，我会建议每个人在项目上都能拿到15分甚至17分以上的成绩。但这并不意味着你不需要去做了，你仍然需要努力完成它，前提是你得有时间去做。另外，关于作业，我认为第一次作业大家都完成得很好。至于第二次作业，实际上会和第一次非常相似。但我目前倾向于选择编程作业，或者像练习那样的其他作业，就像第一次作业一样，你们可以自己选择，是编程作业还是书面作业，书面作业或编程作业，或者两者都做。
+
+授课教师  06:38
+ All right. Maybe I can also do it as a return, because and also I would actually, yeah, I I can say this because I just want you guys, you can also notify your friends. So I would also try to make the final exam, at least like some of the questions in the final exam going to come from our tutorials, midterm and also assignments, all right. So make sure you can you know if you don't want to work so hard on this course, you can still like, you know, practice is only on the tutorials and all the exercises we have, but yeah, that should be the project part, and maybe I can go through the slides really fast here.
+好的，那我也顺便说一句，因为我也想告诉你们，你们可以通知你们的朋友。我会尽量让期末考试，至少是部分题目，出自我们的习题课、期中考试和作业。所以，如果你们不想在这门课上花太多功夫，只要把习题课和所有练习都练熟就行。不过，这算是项目部分。接下来我快速过一下幻灯片。
+
+授课教师  07:31
+ All right. So if we go to the lights, if you see, week six. There are a lot of information here, but I'm not going to introduce them. So the the thing I want to you know, like really say, is actually at the end of the slides, so they are just like through principle principles that you need to keep in mind all right.
+好的，我们来看一下幻灯片，第六周。这里信息量很大，但我不打算逐一介绍。我想真正强调的，其实是在幻灯片最后的部分。这些是需要你们牢记在心的原则。
+
+授课教师  08:07
+ The first is you know you should choose like these are basically the key to get a good grades in a project. So firstly, you need to choose more like methods that fit the data type and learning signal. And since you need to understand what is an input and output of the of the model you're working on, like make the question as clear as possible. Before you start implementation, you need to, you know. Make sure that the problem that you, you, you like, you propose, or the problem you want to work on is a real problem instead of like you might say.
+首先，你要明白，这些基本上是项目中取得好成绩的关键。所以，第一，你需要选择更适合数据类型和学习信号的方法。而且，由于你需要理解所处理模型的输入和输出是什么，所以要把问题尽可能明确化。在开始实施之前，你需要确保你提出的问题，或者你想研究的问题，是一个真实存在的问题，而不是你随口一说的问题。
+
+授课教师  08:45
+ I want to apply deep learning to medical images, but this is not a project a project should be like. I want to maybe do like lation classification for a specific disease using transformer right or using Cnn. So this is a project all right, So make sure your data and also the model is clear enough for others to understand what you are working on, and second is control comparisons. If you want to like this is also very important because I want to make sure like when you are working on this project, what you, what you actually do in a project is what is called ablation study you you need to or control study.
+我想将深度学习应用于医学影像，但这不应该只是一个普通项目。我可能想针对某种特定疾病做分类，比如使用Transformer或CNN。所以，这是一个项目，对吧？因此，要确保你的数据和模型足够清晰，让别人能明白你在做什么。第二点是控制对比，这一点也非常重要。因为我想确保，当你做这个项目时，你实际做的内容就是所谓的消融研究，或者说控制研究。
+
+授课教师  09:28
+ You need to make sure, like every component that changes can be interpreted. For example, if you add component one and component two, what what are the results like? What performance is changed right? What performance is change and and why they change right? This is really important because you need to not like you need to notice, where are the changes and also why these changes happen. This is what we call control comparisons and finally designed for evidence use validation testing, error analysis correctly. These are like the you know, like the things we've learned from the course all right.
+你必须确保，每一个发生变化的组件都能被解释清楚。比如，如果你加入组件一和组件二，结果会怎样？哪些性能发生了变化？为什么这些性能会发生变化？这一点非常重要，因为你不仅需要注意到变化在哪里，还要明白这些变化发生的原因。这就是我们所说的控制对比，最终目的是为了证据使用、验证测试和错误分析的正确性。这些都是我们从课程中学到的内容。
+
+授课教师  10:09
+ So this is like the information I want to to give you guys and you know what? I gonna just log into my overleaf and just release, say answer for a meter now.
+这就是我想告诉你们的信息，而且你们知道吗？我打算直接登录我的Overleaf，现在就发布答案。
+
+授课教师  10:46
+ Just try to find it.
+试着去找找看吧。
+
+授课教师  11:33
+ All right. So these are like the the answers for the midterm so I can just put it on on the canvas. I won't post the questions because you know, like there's one student who who can't make today's exam, so we're gonna have a makeup exam for her.
+好的，这是期中考试的答案，我会直接发布到Canvas上。我不会公布题目，因为有一位同学今天无法参加考试，之后需要为她安排补考。
+
+授课教师  11:59
+ But you know, if I just give you know the questions don't be hard and also like the questions could be changed for her compared to like the questions you are working on. So I think it's fun, you just put it here. All right, this is going to be that these are like the answers for meter. I'm all I'm not going to change the name of it. If you want to check it, go to canvas and check it all right. Yeah, I think it's almost everything. If you have any questions or problems related to midterm finals or project, you can just come over and ask me all right. If you, if you really sad about today's midterm, it's totally fine because it only take kind of points and you still have the chance for final and also project all right.
+但你知道吗，如果我只是把这些问题给你，它们并不难，而且相对于你正在做的那些问题，这些问题可能会为她有所调整。所以我觉得挺有意思的，你就把它放在这里吧。好了，这些就是计分器的答案。我不会去改它的名字。如果你想查看，就去Canvas上看看吧。好的，我觉得差不多就这些了。如果你有任何关于期中考试、期末考试或项目的问题或困难，直接过来问我就可以了。还有，如果你对今天的期中考试感到沮丧，那完全没关系，因为它只占很少的分数，你还有机会在期末考试和项目上弥补。
+
+授课教师  13:01
+ I'll try to make it like easier because you know, for even for midterm how to say like there are a lot of things. It's a little bit too detailed, I believe, because you have to understand the concepts that we learn through lectures. So yeah, but I will try to make sure like you can understand everything and if you have any questions, especially if you have any questions related to the course or the course materials, just feel free to just mark it on and just find me and we can just solve all the questions together. All right. All right, you're afraid to leave, and if you have any questions, you can just come over and ask me all right.
+我会尽量让内容变得简单易懂，因为你知道，即便是期中考试，要讲的东西也很多。我觉得有些内容可能过于细致了，因为你需要理解我们在课堂上学的那些概念。所以，是的，但我会努力确保你能理解所有内容，如果你有任何问题，特别是与课程或课程材料相关的问题，随时可以标记出来，然后找我，我们可以一起解决所有疑问。好了，好了，你们不用担心离开，如果有任何问题，直接过来问我就可以。
+
+
